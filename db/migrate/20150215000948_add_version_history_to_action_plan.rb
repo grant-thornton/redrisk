@@ -1,4 +1,4 @@
-class AddVersionHistoryToActionPlan < ActiveRecord::Migration
+class AddVersionHistoryToActionPlan < ActiveRecord::Migration[5.1]
   def up
     ActionPlan.create_versioned_table
   end
