@@ -1,5 +1,5 @@
 class ActionPlansController < ApplicationController
-  before_filter :find_optional_project
+  before_action :find_optional_project
   menu_item :risks
 
   # GET /action_plans
