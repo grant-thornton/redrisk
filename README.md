@@ -11,6 +11,7 @@ Redmine plugin for manage project risks
 
 - Unarchive plugin to folder redmine/plugins
 - run rake redmine:plugins:migrate
+- https://github.com/rails/protected_attributes
 
 ####Link to Redmine plugins directory
 http://www.redmine.org/plugins/redrisk

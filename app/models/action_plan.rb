@@ -1,6 +1,8 @@
 class ActionPlan < ActiveRecord::Base
   belongs_to :risk
-  attr_accessible :effective, :title, :kind, :description, :assigned_to, :term, :finish_date
+  def user_params
+    params.require(:user).permit( :effective, :title, :kind, :description, :assigned_to, :term, :finish_date)
+  end
   validates :title, presence: true
   validates :term, :finish_date, date: true
   acts_as_versioned

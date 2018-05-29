@@ -1,0 +1,141 @@
+# Spanish strings go here for Rails i18n
+es:
+  risk_menu: Riesgos
+  new: Nuevo
+  female_new: Nuevo
+  edit: Editar
+  destroy: Eliminar
+  create: Crear
+  update: Modificar
+  back: Volver
+  are_you_sure: ¿Esta seguro?
+  hours: Horas
+  history: Historial
+  version_history: Version historial
+  was_successfully_created: creado satisfactoriamente
+  was_successfully_updated: modificado satisfactoriamente
+  female_was_successfully_created: creado satisfactoriamente
+  female_was_successfully_updated: modificado satisfactoriamente
+  money_suffix: 
+  money_prefix: "€ "
+  "true": Si
+  "false": No
+  risk:
+    attributes:
+      title: Titulo
+      status: Estado
+      origin: Origen
+      effort: Esfuerzo
+      cost: Coste
+      description: Descripcion
+      source: Fuente
+      category: Categoria
+      probability: Probabilidad
+      impact: Impacto
+      identification_date: Fecha identificacion
+      priority: Prioridad
+      created_by: Creado por
+      assigned_to: Assignado a
+      strategy: Estrategia
+      trigger: Desencadenante
+    origin:
+      project: Proyecto
+      organizational: Organizacional
+    probability:
+      very_low: Muy baja
+      low: Baja
+      medium: Media
+      high: Alta
+      very_high: Muy alta
+    impact:
+      very_low: Muy baja
+      low: Baja
+      medium: Media
+      high: Alta
+      very_high: Muy alta
+    priority:
+      very_low: Muy baja
+      low: Baja
+      medium: Media
+      high: Alta
+      very_high: Muy alta
+    source:
+      organizational_environment: Entorno organizacional
+      user: Usuario
+      requirements: Requirimientos
+      project_complexity: Complejidad del proyecto
+      planning_and_control: Planificacion y control
+      team: Equipo
+    category:
+      organizational_policy: Politica organizacional
+      organizational_support: Soporte organizacional
+      environment: Entorno
+      user_involvement: Implicacion del usuario
+      user_user: Usuario
+      functional_requirements: Requerimientos funcionales
+      non_functional_requirements: Requerimientos no funcionales
+      requirements_requirements: Requerimientos
+      used_technology: Tecnologia utilizada
+      processes: Procesos
+      chronogram: Cronograma
+      budget: Presupuesto
+      milestones: Hitos
+      estimated_duration: Duracion estimada
+      managers: Administradores
+      team_insufficiency: Insuficiencia de recursos
+      knowledge: Conocimiento
+      cooperation: Cooperacion
+      motivation: Motivacion
+      communication: Communicacion
+    status:
+      open: Abierto
+      closed: Cerrado
+      in_progress: En progreso
+      suspended: Aplazado
+      canceled: Cancelado
+      rejected: Rechazado
+      resolved: resuelto
+    strategy:
+      eliminate: Eliminar
+      transfer: Transferir
+      mitigate: Mitigar
+      accept: Aceptar
+  risks:
+    form:
+      select_one_source: Elija una fuente
+      select_one_category: Elija una categoria
+      select_one_probability: Elija una probabilidad
+      select_one_impact: Elija un impacto
+      select_one_member: Elija un miembro
+  action_plan:
+    attributes:
+      title: Titulo
+      effective: Efectivo
+      kind: Tipo
+      description: Descripcion
+      assigned_to: Asignado a
+      term: Plazo
+      finish_date: Fecha de finalizacion
+      risk: Riesgo
+    kind:
+      mitigation: Mitigacion
+      transference: Transferencia
+      elimination: Eliminacion
+      contingency: Contingencia
+  action_plans:
+    form:
+      associated_risk: Riesgo asociado
+      select_one_kind: Elija una tipologia
+      select_one_member: Elija un miembro
+  version_histories:
+    version: Version
+    modification_date: Fecha de modificacion
+    changed_on: Modificado en
+  activerecord:
+    models:
+      risk:
+        one: Riesgo
+        other: Riesgos
+      action_plan:
+        one: Accion
+        other: Acciones
