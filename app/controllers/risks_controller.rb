@@ -1,5 +1,5 @@
 class RisksController < ApplicationController
-  before_filter :find_optional_project, except: [:get_category_by_source]
+  before_action :find_optional_project, except: [:get_category_by_source]
 
   def index
     @risks = Risk.where(project_identifier: @project.identifier)
